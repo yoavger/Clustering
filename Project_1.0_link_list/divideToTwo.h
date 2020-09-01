@@ -80,8 +80,6 @@ int diffSmallOfEps(double* vec1,double* vec2, int n);
 */
 double* poweriteration(struct mat *A ,struct bHat *bHat_g);
 
-void printVectorDouble(double *v,int size);
-
 
 
 #endif /* DIVIDETOTWO_H_ */

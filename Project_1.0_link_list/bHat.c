@@ -13,16 +13,6 @@
 
 #include "bHat.h"
 
-bHat* intizeleize_bHat(struct mat *A ,int *g, int size);
-
-void free_bHat(struct bHat *bHat_g);
-
-double compute_noram1(double *norma1_v, int size);
-
-void compute_f_g_i(struct mat *A, struct bHat *bHat_g);
-
-void multMatrixByVector(const struct mat *A, const double *v, double *result,struct bHat *bHat_g, int bool);
-
 /* intizeleize_bHat given a sub group g of the graph G */
 bHat* intizeleize_bHat (struct mat* A, int *g, int size){
 

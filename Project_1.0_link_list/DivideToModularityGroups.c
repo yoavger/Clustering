@@ -13,20 +13,6 @@
 
 #include "DivideToModularityGroups.h"
 
-link_list* algo3 (struct mat *A);
-
-void initialize_P_and_O(int size, int *g, link_list **P , link_list **O);
-
-void divise_g1_g2(int *g ,int **g1, int **g2, double *s, int size);
-
-int countPostive(double *s,int size);
-
-void insertNode_g(link_list *list, int *g);
-
-void deleteHead(link_list *list);
-
-void freeLink_list(link_list *list);
-
 link_list* algo3 (struct mat *A){
 
 	int 		size;

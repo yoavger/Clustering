@@ -15,24 +15,6 @@
 
 #include "divideToTwo.h"
 
-double* algo2(struct mat *A,struct bHat *bHat_g);
-
-double multTwoVectors (double* vec1 ,double* vec2, int n);
-
-double compute_sTXbHat_gXs(struct mat *A,struct bHat *bHat_g, double *s);
-
-void computeS (double *vec, double *s, int n);
-
-void computeSTrivaial(double *s, int n);
-
-double compute_eigenValue (double *vec, mat *mat, bHat *bHat_g);
-
-void divByNorma(double* vec, int n);
-
-int diffSmallOfEps(double* vec1,double* vec2, int n);
-
-double* poweriteration(struct mat *A ,struct bHat *bHat_g);
-
 void printVectorDouble(double *v,int size);
 
 

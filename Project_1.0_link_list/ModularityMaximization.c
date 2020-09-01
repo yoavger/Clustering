@@ -11,12 +11,6 @@
 #include "ModularityMaximization.h"
 
 
-int maximizeModularity(struct mat *A, struct bHat *bHat_g, double *s);
-
-void zerofyVec(char *vec,int size);
-
-int getMaxInd(double *arr,int size, char *excludeInd);
-
 double computeScore(struct mat *A,struct bHat *bHat_g, double *d, int index);
 
 int maximizeModularity(struct mat *A, struct bHat *bHat_g, double *s){
